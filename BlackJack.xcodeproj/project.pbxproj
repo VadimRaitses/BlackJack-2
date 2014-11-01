@@ -19,6 +19,15 @@
 		8B882AA119A3DAD500195376 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B882A8919A3DAD500195376 /* UIKit.framework */; };
 		8B882AA919A3DAD500195376 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B882AA719A3DAD500195376 /* InfoPlist.strings */; };
 		8B882AAB19A3DAD500195376 /* BlackJackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882AAA19A3DAD500195376 /* BlackJackTests.m */; };
+		8B882AC819A3DB6200195376 /* BlackJackCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882AB819A3DB6200195376 /* BlackJackCard.m */; };
+		8B882AC919A3DB6200195376 /* BlackJackDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882ABA19A3DB6200195376 /* BlackJackDeck.m */; };
+		8B882ACA19A3DB6200195376 /* BlackJackGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882ABC19A3DB6200195376 /* BlackJackGame.m */; };
+		8B882ACB19A3DB6200195376 /* BlackJackGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882ABE19A3DB6200195376 /* BlackJackGameViewController.m */; };
+		8B882ACC19A3DB6200195376 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882AC019A3DB6200195376 /* Card.m */; };
+		8B882ACD19A3DB6200195376 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882AC219A3DB6200195376 /* CardView.m */; };
+		8B882ACE19A3DB6200195376 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882AC419A3DB6200195376 /* Deck.m */; };
+		8B882ACF19A3DB6200195376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B882AC519A3DB6200195376 /* Main.storyboard */; };
+		8B882AD019A3DB6200195376 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B882AC719A3DB6200195376 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,23 @@
 		8B882AA619A3DAD500195376 /* BlackJackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackJackTests-Info.plist"; sourceTree = "<group>"; };
 		8B882AA819A3DAD500195376 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B882AAA19A3DAD500195376 /* BlackJackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackJackTests.m; sourceTree = "<group>"; };
+		8B882AB719A3DB6200195376 /* BlackJackCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackJackCard.h; sourceTree = "<group>"; };
+		8B882AB819A3DB6200195376 /* BlackJackCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackJackCard.m; sourceTree = "<group>"; };
+		8B882AB919A3DB6200195376 /* BlackJackDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackJackDeck.h; sourceTree = "<group>"; };
+		8B882ABA19A3DB6200195376 /* BlackJackDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackJackDeck.m; sourceTree = "<group>"; };
+		8B882ABB19A3DB6200195376 /* BlackJackGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackJackGame.h; sourceTree = "<group>"; };
+		8B882ABC19A3DB6200195376 /* BlackJackGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackJackGame.m; sourceTree = "<group>"; };
+		8B882ABD19A3DB6200195376 /* BlackJackGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackJackGameViewController.h; sourceTree = "<group>"; };
+		8B882ABE19A3DB6200195376 /* BlackJackGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackJackGameViewController.m; sourceTree = "<group>"; };
+		8B882ABF19A3DB6200195376 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		8B882AC019A3DB6200195376 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		8B882AC119A3DB6200195376 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		8B882AC219A3DB6200195376 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		8B882AC319A3DB6200195376 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		8B882AC419A3DB6200195376 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		8B882AC519A3DB6200195376 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B882AC619A3DB6200195376 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8B882AC719A3DB6200195376 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +133,11 @@
 		8B882A8B19A3DAD500195376 /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
+				8B882ABB19A3DB6200195376 /* BlackJackGame.h */,
+				8B882ABC19A3DB6200195376 /* BlackJackGame.m */,
+				8B882AB619A3DB0700195376 /* Controller */,
+				8B882AB519A3DAF800195376 /* View */,
+				8B882AB419A3DAE900195376 /* Model */,
 				8B882A9419A3DAD500195376 /* AppDelegate.h */,
 				8B882A9519A3DAD500195376 /* AppDelegate.m */,
 				8B882A9719A3DAD500195376 /* Images.xcassets */,
@@ -142,6 +173,42 @@
 				8B882AA719A3DAD500195376 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B882AB419A3DAE900195376 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B882AB719A3DB6200195376 /* BlackJackCard.h */,
+				8B882AB819A3DB6200195376 /* BlackJackCard.m */,
+				8B882AB919A3DB6200195376 /* BlackJackDeck.h */,
+				8B882ABA19A3DB6200195376 /* BlackJackDeck.m */,
+				8B882ABF19A3DB6200195376 /* Card.h */,
+				8B882AC019A3DB6200195376 /* Card.m */,
+				8B882AC119A3DB6200195376 /* CardView.h */,
+				8B882AC219A3DB6200195376 /* CardView.m */,
+				8B882AC319A3DB6200195376 /* Deck.h */,
+				8B882AC419A3DB6200195376 /* Deck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B882AB519A3DAF800195376 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B882AC519A3DB6200195376 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B882AB619A3DB0700195376 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B882AC719A3DB6200195376 /* SettingsViewController.m */,
+				8B882AC619A3DB6200195376 /* SettingsViewController.h */,
+				8B882ABE19A3DB6200195376 /* BlackJackGameViewController.m */,
+				8B882ABD19A3DB6200195376 /* BlackJackGameViewController.h */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B882ACF19A3DB6200195376 /* Main.storyboard in Resources */,
 				8B882A9019A3DAD500195376 /* InfoPlist.strings in Resources */,
 				8B882A9819A3DAD500195376 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +309,14 @@
 			files = (
 				8B882A9619A3DAD500195376 /* AppDelegate.m in Sources */,
 				8B882A9219A3DAD500195376 /* main.m in Sources */,
+				8B882ACD19A3DB6200195376 /* CardView.m in Sources */,
+				8B882ACA19A3DB6200195376 /* BlackJackGame.m in Sources */,
+				8B882ACB19A3DB6200195376 /* BlackJackGameViewController.m in Sources */,
+				8B882AC819A3DB6200195376 /* BlackJackCard.m in Sources */,
+				8B882ACC19A3DB6200195376 /* Card.m in Sources */,
+				8B882AD019A3DB6200195376 /* SettingsViewController.m in Sources */,
+				8B882ACE19A3DB6200195376 /* Deck.m in Sources */,
+				8B882AC919A3DB6200195376 /* BlackJackDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +515,7 @@
 				8B882AB019A3DAD500195376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B882AB119A3DAD500195376 /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +524,7 @@
 				8B882AB319A3DAD500195376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

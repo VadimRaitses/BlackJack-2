@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BlackJackGame hitCard:isDealer:]:BlackJackGame.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.decks[0].Deck">
+            </PersistentString>
+            <PersistentString
+               value = "[self.decks[_deckIndex] count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
